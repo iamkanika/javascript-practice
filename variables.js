@@ -5,7 +5,8 @@ console.log(firstName);
 //change value
 firstName="Aryan";
 console.log(firstName);
-let fullName = "Kanikagarg"
+let fullName = "Kanikagarg";
 console.log(fullName);
 
 const PI = 314.12;
+// this writeen in uppercase letters....
