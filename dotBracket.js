@@ -8,3 +8,9 @@ const kani = {
 console.log(kani.name);
 //bracket operator
 console.log(kani["person hobbies"]);
+console.log(kani.name);
+const key = "email";
+kani.key = "kanikagarg2707@gmail.com";
+console.log(kani);
+kani[key] = "kanik12";
+console.log(kani);
