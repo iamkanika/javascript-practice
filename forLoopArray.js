@@ -15,7 +15,7 @@ for(let a=0; a<fruits.length; a++){
 console.log(fruits2);
 //use of constant in arrays
 const frt=["apple","mango"];
-//we can not frt=["pinapple "] in case of constant
+//we can not write frt=["pinapple "] in case of constant
 frt.push("grapes");
 console.log(frt);
 // but in case of let

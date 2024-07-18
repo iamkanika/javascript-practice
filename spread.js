@@ -21,4 +21,7 @@ const obj2= {
 console.log(obj2);
 const newObj = {...obj1,...obj2};
 console.log(newObj);
-
+const newObj1 = {..."abc"};
+console.log(newObj1);
+const myObj2 = {...["item1","item2"] };
+console.log(myObj2);
