@@ -7,3 +7,4 @@ function myFunc(){
 }
 const ans = myFunc();
 ans();
+// if we pass input a function or returning a function or we do both then these are called higher Order functions.
