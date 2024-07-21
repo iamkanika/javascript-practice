@@ -29,3 +29,5 @@ for (let key of person1.keys()){
 for(let key of person1){
     console.log(key);
 }
+const person2 = new Map([['firstname','kanika'],['age', 21],]);
+console.log(person2);

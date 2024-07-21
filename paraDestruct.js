@@ -13,6 +13,6 @@ function printDetails(obj){
 function printDetails({firstName,gender ,age}){
     console.log(firstName);
     console.log(gender);
-    console.log(age);
+    console.log(age);// it gives undefined
 }
 printDetails(person);
