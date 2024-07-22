@@ -7,7 +7,7 @@ for (let char of fname){
 }
 const array1 = [1,2,34,5,98];
 for (let item of array1){
-    console.log(item);
+    console.log(item); // printing 
 }
 // objects are not iterables
 

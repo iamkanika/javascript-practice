@@ -21,7 +21,7 @@ person1.set(1,'one');// yha 1 number hh....
 console.log(person1);
 //how to access key value pairs
 console.log(person1.get(1));
-console.log(person1.get('age'));
+console.log(person1.get('age')); // another method
 console.log("printing keys");
 for (let key of person1.keys()){
     console.log(key, typeof key);
