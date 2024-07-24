@@ -8,5 +8,6 @@ const userCart = [
     {productId :2, productName:"laptop", price: 20000},
     {productId :3, productName:"tv", price: 10000},
 ];
+
 const ans1 = userCart.every ((userProduct)=>userProduct.price<=30000);
 console.log(ans1);
