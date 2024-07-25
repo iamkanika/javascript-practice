@@ -31,3 +31,16 @@ info.apply(user2 , ["sleeping"]);
 console.log("Bind Method");
 const func = info.bind(user1, "eating" , "lata");
 func();
+// don't do these mistakes
+console.log("avoid Mistakes");
+const user3 = {
+    firstName : "Kanika",
+    age : 21,
+    about : function(){
+        console.log(this.firstName , this.age);
+    }
+}
+ const myFunc1= user3.about;
+ myFunc1();
+ const myCoorect = user3.about.bind(user3);
+ myCoorect();

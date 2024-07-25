@@ -6,7 +6,7 @@ function hello(){
 console.log(hell);
 var hell = "hello world";
 console.log(hell);
-// but it gives error in case of let and const \
+// but it gives error in case of let and const
 
 
 
