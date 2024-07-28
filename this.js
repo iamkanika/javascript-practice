@@ -10,6 +10,6 @@ window.myFunc();
 //using strict mode
 function myFunction(){
     "use strict"
-    console.log(this);
+    console.log(this);// gives undefined
 }
 myFunction();

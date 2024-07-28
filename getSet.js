@@ -13,7 +13,7 @@ class Person{
         this.lastName =lastName;
     }
     set fullName(fullName){
-        const [firstName,lastNAme]= fullName.split(" ");
+        const [firstName, lastName]= fullName.split(" ");
         this.firstName = firstName;
         this.lastName = this.lastName;
     }
