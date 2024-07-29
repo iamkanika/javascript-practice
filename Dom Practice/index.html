@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class=" nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Todo</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2>Manage your task</h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+    <section class="section-todo container">
+        <h2>Your plan for today..</h2>
+        <form action="" class="form-todo">
+            <input type="text" name="" placeholder="Add Tools">
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+    </section>
+    <section class="section-signup container">
+        <h2>SignUp Form</h2>
+        <form class="signup-form">
+            <div class="section-form">
+                <label for="username">UserName</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="section-form">
+                <label for="userpassword"> password</label>
+                <input type="text" name="userpassword" id="userpassword">
+            </div>
+            <div class="section-form">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="text" name="confirm_password" id="confirm_password">
+            </div>
+            <div class="section-form">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="section-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="section-form">
+                <label for="About"> About</label>
+                <textarea name="About" id="About" cols="30" rows="10"></textarea>
+            </div>
+            <div class="section-form">
+                <button class="btn signup-btn" type="submit" >Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

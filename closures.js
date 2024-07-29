@@ -27,3 +27,11 @@ function para(x){
 }
 const paragraph= para();
 paragraph(0);
+function myFunction (power){
+    return function (num){
+        return num**power;
+    }
+}
+const cube = myFunction(3);
+const ans2= cube(3);
+console.log(ans2);
