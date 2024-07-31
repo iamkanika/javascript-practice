@@ -12,6 +12,11 @@
     color: white;
     position: relative;
 }
+.bg-dark{
+    color: white;
+    background-color: black;
+    background: black;
+}
 a{
     text-decoration: none;
     color: white;
@@ -56,6 +61,18 @@ a{
     margin-top: 5rem;
     text-align: center;
 }
+.todo-list{
+    text-align: left;
+    font-weight: 1.2rem;
+}
+.todo-list li {
+    padding: 0.7rem;
+    background-color: #444;
+    color: cyan;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
 .form-todo{
     /* border: 2px solid red;  */
     min-height: 5vh;
